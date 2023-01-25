@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class base
+{
+    
+};
+class Derived:public base
+{
+    
+};
+int main()
+{
+    base *ptr=new Derived;
+    Derived *dp = dynamic_cast<Derived*>(ptr);
+  if(dp !=NULL)
+  {
+      cout<<"DC is done successfully";
+  }
+  else
+  {
+      cout<<"DC has failed";
+  }
+  return 0;
+} 
