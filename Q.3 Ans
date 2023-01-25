@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x;
+    float y;
+    cout<<"Enter floating point Number:";
+    cin>>x;
+    y=x%10;
+    cout<<"Right Most Number:"<<" "<<y;
+    return 0;
+}
